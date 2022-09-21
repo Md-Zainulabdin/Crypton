@@ -1,0 +1,267 @@
+@media only screen and (max-width:920px){
+   
+    nav ul{
+        position: fixed;
+        top: 88px;
+        left: -100%;
+        width: 100%;
+        height: 100vh;
+        background: #05122e;
+        display: block;
+        flex-direction: column;
+        text-align: center;
+        transition: all 0.4s ease;
+            }
+    nav ul li{
+        display: block;
+        margin-top: 30px;
+}
+nav ul li a{
+    font-size: 20em;
+}
+.login-card{
+    display: none;
+}
+.check-btn i{
+    display: block;
+}
+#check:checked ~ul{
+    left: 0px;
+}
+.content-container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 20%;
+    text-align: center;
+}
+.text-content{
+    width: 100%;
+    height: 50vh;
+}
+.text-content h1{
+    font-size: 39px;
+    }
+    .text-content p{
+        margin-top: 20px;
+        color: #999;
+        font-size: 12px;
+        line-height: 25px;
+    }
+    .text-content a{
+        padding: 7px 12px;
+        position: relative;
+        top: 10%;
+    }
+    .image-content{
+        width: 100%;
+        height: 50vh;
+    }
+    .image-content img{
+        width: 290px;
+        position: relative;
+    top: -25%;
+    left: 3%;
+    }
+    .second-container{
+        width: 100%;
+        height: 80vh;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .txt-content{
+        width: 100%;
+          padding: 20px 60px;
+        text-align: center;
+        position: relative;
+        top: -22%;
+                 
+    }
+    .txt-content p{
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .txt-content a{
+        padding: 7px 12px;
+    }
+    .img-content
+    {
+        width: 100%;
+        height: 30vh;
+            }
+    .img-content img{
+        width: 220px;
+        text-align: center;
+        position: relative;
+        top: -10%;
+      left: 27%;
+    }
+    .Platform-Container{
+        width: 100%;
+        height: 100vh;
+    }
+    .Platform-Container h1{
+        font-size: 30px;
+    }
+    .trusted-cards .card1{
+        width: 250px;
+    height: 220px;
+    }
+    .card1 img{
+        width: 30px;
+        filter: drop-shadow(2px 1px 3px rgba(112, 112, 112, 0.3));
+    }
+    .card1 h2{
+        color: aliceblue;
+        letter-spacing: 1px;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .card1 p{
+        color: #999;
+        margin-top: 6px;
+        font-size: 11px;
+    }
+    .Plans-Container{
+        width: 100%;
+        height: 130vh;
+    }
+    .Plans-Container h1{
+        font-size: 28px;
+    }
+    .Plans-Container p
+    {font-size: 11px;
+
+}
+.plans-card{
+    position: relative;
+    top: 4%;
+}
+.plans-card .card01{
+    width: 250px;
+    height: 300px;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+.card01 h2{
+    font-size: 23px;
+}
+.card01 ul{
+    margin-top: 10px;
+}
+.card01 ul li{
+    font-size: 11px;
+    margin-top: 4px;
+}
+.card01 h1{
+    font-size: 25px;
+    margin-top: 22px;
+}
+.card01 button{
+    width: 140px;
+    margin-top: 20px;
+    padding: 8px 8px;
+}
+.Brands-Conatiner{
+    width: 100%;
+    height: 25vh;
+    padding-top: 50px;
+}
+.Brands img{
+    width:120px;
+    margin-right: 20px;
+}
+.brand4 img{
+    width: 40px;
+}
+.Currency-Container{
+    width: 100%;
+    height: 100vh;
+}
+.img-txt-content{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.Image{
+    width: 100%;
+    height: 50vh;
+    padding: 10px 10px;
+}
+.text-{
+    width:100%;
+    padding: 50px 40px;
+    text-align: center;
+}
+.text- h1{
+    font-size: 27px;
+    color: aliceblue;
+}
+.text- p{
+    font-size: 12px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+.text- a{
+    text-decoration: none;
+    border: 2px solid #00E5D8;
+    padding: 7px 10px;
+    color: #081945;
+       border-radius: 8px;
+    background: #00E5D8;
+      
+}
+.Image{
+    width: 100%;
+        text-align: center;
+        padding: 20px 0px;
+
+}
+.Image img{
+    width: 300px;
+    position: relative;
+    top: 30%;
+    left: 0%;
+}
+.Users-Container{
+    width: 100%;
+    height: 100vh;
+}
+.Users-Container h1{
+    font-size: 29px;
+}
+.Users{
+    position: relative;
+    top: 5%;
+}
+.Users .user{
+    margin-top: 40px;
+        width: 200px;
+    height: 200px;
+}
+.user img{
+    width: 50px;
+}
+.user h2{
+    font-size: 29px;
+}
+.Footer-Container{
+    width: 100%;
+    height: 55vh;
+    text-align: center;
+}
+.Footer-section{
+    display: flex;
+    flex-direction: column;
+}
+.footer1{
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    padding: 50px 150px;
+}
+.footer2{
+    display: none;
+}
+
+
+}
